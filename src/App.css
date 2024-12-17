@@ -1,0 +1,35 @@
+.card-color{
+    height: 250px;
+    background-color: #ffffffa9 !important;
+    border-radius: 10px;
+    color: #000;
+
+}
+.card-color:hover{
+  background-color: #000000d7 !important;
+  transition: 1s ease-in-out all;
+  color: #fff;
+  cursor: pointer;
+}
+.card-style{
+  box-shadow: 3px 4px 10px rgba(149, 112, 112, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.card-style:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(60, 52, 52, 0.2);
+
+}
+.case-btn{
+  background-color: #EF6D1C !important;
+  color: #fff !important;
+}
+.case-btn:hover{
+  background-color: gray !important;
+}
+.footer-nav:hover{
+
+  color: #EF6D1C;
+  cursor: pointer;
+}
