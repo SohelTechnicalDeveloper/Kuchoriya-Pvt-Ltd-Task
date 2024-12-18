@@ -11,10 +11,12 @@ import CaseStudies from "./Components/CaseStudies";
 import Footer from "./Components/Footer";
 import Locations from "./Components/Locations";
 import Blogs from "./Components/Blogs";
+import Cursor from "./Components/Cursor";
 
 function App() {
   return (
     <div className="App">
+      <Cursor/>
       <BrowserRouter>
         <Home />
         <ContactSidebar />

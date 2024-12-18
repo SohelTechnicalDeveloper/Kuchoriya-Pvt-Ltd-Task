@@ -5,6 +5,7 @@ import Linkedln from '../Image/linkedln.png'
 import twitter from '../Image/twitter.png'
 import facebook from '../Image/facebook.png'
 import { FaTelegramPlane } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -122,38 +123,38 @@ const Footer = () => {
             &copy; 2024 Kuchoriya Softwares. All Rights Reserved.
           </div>
           <div className=" mt-4">
-            <a href="#" className="text-white mx-2">
+            <Link  className="text-white mx-2">
               <img
                 src={Insta}
                 height={30}
                 style={{ borderRadius: "32px" }}
                 alt=""
               />
-            </a>
-            <a href="#" className="text-white mx-2">
+            </Link>
+            <Link  className="text-white mx-2">
               <img
                 src={Linkedln}
                 height={30}
                 style={{ borderRadius: "32px" }}
                 alt=""
               />
-            </a>
-            <a href="#" className="text-white mx-2">
+            </Link>
+            <Link className="text-white mx-2">
               <img
                 src={twitter}
                 height={30}
                 style={{ borderRadius: "32px" }}
                 alt=""
               />
-            </a>
-            <a href="#" className="text-white mx-2">
+            </Link>
+            <Link  className="text-white mx-2">
               <img
                 src={facebook}
                 height={30}
                 style={{ borderRadius: "10px" }}
                 alt=""
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
