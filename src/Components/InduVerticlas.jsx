@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../Styles/InduVerticals.css'
 const IndustryVerticals = () => {
 
     //this are details industry verticals
@@ -41,8 +41,8 @@ const IndustryVerticals = () => {
         </p>
         <div className="row">
           {verticals.map((item, index) => (
-            <div key={index} className="col-6 col-md-3 mb-4">
-              <div className="p-4 border border-light rounded shadow-sm">
+            <div key={index} className="col-6 col-md-3 mb-4 ">
+              <div className="p-4 border border-light rounded shadow-sm indo-card">
                 <div className="fs-1 mb-3 ">{item.icon}</div>
                 <h5 className="mb-0">{item.name}</h5>
               </div>
